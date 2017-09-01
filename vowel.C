@@ -3,9 +3,9 @@ int main()
 {
 char n;
 scanf("%c",&n)
-if((n==a||n==e||n==i||n==o||n==u)&&(n==A||n==E||n==I||n==O||n==U))
-printf("Vowel\n");
+if(((n>=a)&&(n<=z))||((n>=A)&&(n<=Z)))
+printf("Alphabet\n");
 else
-printf("Consonant");
+printf("not alphabet");
 return 0;
 }
