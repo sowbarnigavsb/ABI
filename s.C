@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int n,i,sum=0;
+int n,i,s=0;
   scanf("%d",&n)
   for(i=1;i<=n;i++)
   {
-    sum=sum+i;
+    s=s+i;
   }
-printf("sum of n nos is %d\n",sum);
+printf("sum of n nos is %d\n",s);
 return 0;
 }
